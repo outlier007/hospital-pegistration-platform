@@ -13,6 +13,7 @@ import org.springframework.context.annotation.ComponentScan;
 @EnableDiscoveryClient
 @EnableFeignClients(basePackages = "com.lmclearn")//可以通过FeignClient调用其他模块
 public class ServiceOrderApplication {
+    //
     public static void main(String[] args) {
         SpringApplication.run(ServiceOrderApplication.class,args);
     }
