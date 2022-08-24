@@ -10,6 +10,7 @@ import org.springframework.context.annotation.ComponentScan;
 @ComponentScan(basePackages = {"com.lmclearn"})
 @EnableDiscoveryClient //开启nacos客户端支持
 public class ServiceMsmsApplication {
+    //
     public static void main(String[] args) {
         SpringApplication.run(ServiceMsmsApplication.class,args);
     }
